@@ -10,7 +10,7 @@ export function Home({ isDarkMode, setIsDarkMode }) {
       <div className="inicio"><h1>Ejercicio UseState</h1></div>
       <ModeDark isDarkMode={isDarkMode} setIsDarkMode={setIsDarkMode} />
       <LikeDislike />
-      <ColorChanger isDarkMode={isDarkMode} />
+      <ColorChanger />
       <Time />
     </div>
   );
